@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.addInfo{
+    height: 50px;
+    width: 900px;
+    margin: 20px;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+.addInfo input{
+    padding: 5px;
+}
+
+#root{
+    display: flex;
+    height: 300px;
+    width: 200px;
+    gap: 10px;
+    margin: 40px 35px;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.item{
+    width: 150px;
+    height: 60px;
+    margin: 30px 75px ;
+    display: flex;
+    padding: 10px;
+    border: 2px solid black;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
